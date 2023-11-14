@@ -3,7 +3,7 @@
 ## Models
 **user**
 ```
-id, user_name, country
+id, name, country
 has_many :orders
 has_many :items, through: :orders
 ```
